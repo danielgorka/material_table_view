@@ -116,8 +116,6 @@ class _TableViewRowElement extends RenderObjectElement {
     final data = TableContentLayout.of(this);
 
     _updateRenderObject(data);
-
-    _updateChildren(data);
   }
 
   @override
