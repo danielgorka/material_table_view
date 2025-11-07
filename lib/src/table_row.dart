@@ -111,8 +111,8 @@ class _TableViewRowElement extends RenderObjectElement {
   }
 
   @override
-  // ignore: must_call_super
   void didChangeDependencies() {
+    super.didChangeDependencies();
     final data = TableContentLayout.of(this);
 
     _updateRenderObject(data);
